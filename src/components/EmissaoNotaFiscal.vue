@@ -101,7 +101,7 @@ export default {
 
   watch: {
     selecaoProduto(newValue) {
-      if ((newValue = !null)) {
+      if ((newValue =! null)) {
         this.mensagemErro = "";
       }
     },
